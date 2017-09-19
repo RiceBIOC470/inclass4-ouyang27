@@ -1,3 +1,6 @@
+%AW: looks good. see comment below. 0.99/1. 
+
+
 %Inclass assignment 4. Due at the start of class on 9/12/17
 
 %1. (a) Write code that makes a file with the words "Random numbers 1" on its
@@ -24,6 +27,8 @@ fclose(fid);
 % variable which is true if the sum of the numbers in the array is greater
 % than or equal to 10 and false if it is less than 10. 
 
+%AW: this is almost correct. Note that your result will be of type double by default. Use the
+% keywords true and false or explicitly cast as logical. -0.01.
 a = rand(5);
 num10(a)
  
